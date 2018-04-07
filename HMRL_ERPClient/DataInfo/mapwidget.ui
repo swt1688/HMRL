@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MapWidget</class>
+ <widget class="QWidget" name="MapWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1036</width>
+    <height>675</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="0,9">
+   <property name="leftMargin">
+    <number>1</number>
+   </property>
+   <property name="topMargin">
+    <number>1</number>
+   </property>
+   <property name="rightMargin">
+    <number>1</number>
+   </property>
+   <property name="bottomMargin">
+    <number>1</number>
+   </property>
+   <property name="spacing">
+    <number>4</number>
+   </property>
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="addrLineEdit">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>38</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="goPushButton">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>38</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>go</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mapBtn">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>38</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>map</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QAxWidget" name="webBrowser">
+     <property name="control" stdset="0">
+      <string>{8856f961-340a-11d0-a96b-00c04fd705a2}</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QAxWidget</class>
+   <extends>QWidget</extends>
+   <header>qaxwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

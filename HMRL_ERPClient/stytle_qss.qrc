@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QSS/ui_stytle.qss</file>
+        <file>QSS/blue_Style.qss</file>
+    </qresource>
+</RCC>

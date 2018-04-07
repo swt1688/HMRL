@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainInterface</class>
+ <widget class="QMainWindow" name="mainInterface">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1299</width>
+    <height>776</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="accessibleDescription">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <property name="leftMargin">
+     <number>2</number>
+    </property>
+    <property name="topMargin">
+     <number>2</number>
+    </property>
+    <property name="rightMargin">
+     <number>2</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="horizontalSpacing">
+     <number>6</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widgetTitle" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="labICON">
+           <property name="maximumSize">
+            <size>
+             <width>400</width>
+             <height>59</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QWidget" name="widgetTop" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QToolButton" name="btnRealData">
+              <property name="font">
+               <font>
+                <family>楷体</family>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>产品概况</string>
+              </property>
+              <property name="icon">
+               <iconset resource="qss.qrc">
+                <normaloff>:/image/main_icon/main.png</normaloff>:/image/main_icon/main.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>45</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="popupMode">
+               <enum>QToolButton::DelayedPopup</enum>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="arrowType">
+               <enum>Qt::NoArrow</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="btnReport">
+              <property name="font">
+               <font>
+                <family>楷体</family>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>商品入库</string>
+              </property>
+              <property name="icon">
+               <iconset resource="qss.qrc">
+                <normaloff>:/image/main_icon/timg.png</normaloff>:/image/main_icon/timg.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>45</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="popupMode">
+               <enum>QToolButton::DelayedPopup</enum>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="arrowType">
+               <enum>Qt::NoArrow</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="btnControl">
+              <property name="font">
+               <font>
+                <family>楷体</family>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>商品出库</string>
+              </property>
+              <property name="icon">
+               <iconset resource="qss.qrc">
+                <normaloff>:/image/main_icon/remcontrl.png</normaloff>:/image/main_icon/remcontrl.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>45</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="popupMode">
+               <enum>QToolButton::DelayedPopup</enum>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="arrowType">
+               <enum>Qt::NoArrow</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="btnLogoInfo">
+              <property name="font">
+               <font>
+                <family>楷体</family>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>库存查询</string>
+              </property>
+              <property name="icon">
+               <iconset resource="qss.qrc">
+                <normaloff>:/image/main_icon/logoog.png</normaloff>:/image/main_icon/logoog.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>45</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="popupMode">
+               <enum>QToolButton::DelayedPopup</enum>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="arrowType">
+               <enum>Qt::NoArrow</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="btnSystemServer">
+              <property name="font">
+               <font>
+                <family>楷体</family>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>系统维护</string>
+              </property>
+              <property name="icon">
+               <iconset resource="qss.qrc">
+                <normaloff>:/image/main_icon/timgV4PGLL56.png</normaloff>:/image/main_icon/timgV4PGLL56.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>45</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="popupMode">
+               <enum>QToolButton::DelayedPopup</enum>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+              <property name="arrowType">
+               <enum>Qt::NoArrow</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Expanding</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>57</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QComboBox" name="cboxUserLogo">
+           <property name="minimumSize">
+            <size>
+             <width>182</width>
+             <height>57</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <italic>false</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QComboBox 
+{
+	background-color:transparent;
+	/*border: 1px solid white;/*整个区域的边框粗细、样式、颜色*/
+	selection-background-color: transparent;
+	border-left-color: transparent;
+	/*border:1px solid gray;*/
+	min-height: 55px;
+	/*padding:120px 0px;*/
+	/*margin:0px 8px;/*设置菜单项的外边距*/
+	border-bottom:1px solid #DBDBDB;
+    
+}
+QComboBox QAbstractItemView::item {
+min-height: 55px;
+outline: 0px;
+border: 1px solid transparent;
+ padding:5px 0px;/*设置菜单项文字上下和左右的内边距，效果就是菜单中的条目左右上下有了间隔*/
+margin:0px 5px;/*设置菜单项的外边距*/
+border-bottom:1px solid #DBDBDB;/*为菜单项之间添加横线间隔*/
+
+/*border: 1px;*/
+
+}
+QComboBox::drop-down{border1px;}
+QComboBox QAbstractItemView::item:selected {
+    border: 1px solid rgb(170, 190, 230);
+    outline: 0px;
+    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(158, 245, 45, 89), stop:0.402985 rgba(100, 68, 234, 190), stop:0.59204 rgba(100, 68, 234, 203), stop:1 rgba(158, 245, 45, 86));
+ /*font-size:32px;*/
+	font: 75 48pt &quot;黑体&quot;;
+}
+
+QListView{
+	border: 1px solid #6a6ea9;
+
+	qproperty-iconSize: 40px 40px;
+
+	font-family: &quot;宋体&quot;;
+
+	font-size:24px;
+
+ /* sets background of menu item. set this to something non-transparent
+         if you want menu color and menu item color to be different */
+     /*background-color: transparent;*/
+
+     border-bottom:1px solid #DBDBDB;/*为菜单项之间添加横线间隔*/
+}
+</string>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>7</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QStackedWidget" name="stackedWidget">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::DefaultContextMenu</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <property name="currentIndex">
+           <number>3</number>
+          </property>
+          <widget class="QWidget" name="page_0"/>
+          <widget class="QWidget" name="page_1"/>
+          <widget class="QWidget" name="page_6"/>
+          <widget class="QWidget" name="page_7"/>
+          <widget class="QWidget" name="page_8"/>
+          <widget class="QWidget" name="page_9"/>
+          <widget class="QWidget" name="page_10"/>
+          <widget class="QWidget" name="page_11"/>
+          <widget class="QWidget" name="page_12"/>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1299</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="sizeGripEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="qss.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PictureModify</class>
+ <widget class="QDialog" name="PictureModify">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>731</width>
+    <height>643</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>600</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>选择图像</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnOk">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>590</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>确认保存</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../qss.qrc">
+     <normaloff>:/image/main_icon/back.png</normaloff>:/image/main_icon/back.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSearch">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>590</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>浏览</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../qss.qrc">
+     <normaloff>:/image/main_icon/docu.png</normaloff>:/image/main_icon/docu.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>590</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PicturePreviewPanel" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>9</y>
+     <width>711</width>
+     <height>571</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PicturePreviewPanel</class>
+   <extends>QWidget</extends>
+   <header>QFrame/picturepreviewpanel.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../qss.qrc"/>
+ </resources>
+ <connections/>
+</ui>

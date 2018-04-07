@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ICON/card-file.png</file>
+        <file>ICON/color-palette.png</file>
+        <file>ICON/delete-v2.png</file>
+        <file>ICON/green-pencil.png</file>
+        <file>ICON/help.png</file>
+        <file>ICON/pencil-v2.png</file>
+        <file>ICON/properties.png</file>
+        <file>ICON/tourist-industry.png</file>
+        <file>ICON/calculator2.png</file>
+        <file>ICON/fileexplorer.png</file>
+        <file>ICON/mms.png</file>
+        <file>ICON/print_empty.png</file>
+        <file>ICON/tree.ico</file>
+    </qresource>
+</RCC>

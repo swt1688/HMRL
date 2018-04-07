@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QSS/blue_Style.qss</file>
+        <file>QSS/ui_stytle.qss</file>
+        <file>image/2013022519570356.jpg</file>
+        <file>image/add-line_horizontal.png</file>
+        <file>image/add-line_vertical.png</file>
+        <file>image/array_down.png</file>
+        <file>image/back.png</file>
+        <file>image/checkbox_checked.png</file>
+        <file>image/checkbox_unchecked.png</file>
+        <file>image/delete.png</file>
+        <file>image/error.png</file>
+        <file>image/excel.png</file>
+        <file>image/find.png</file>
+        <file>image/info.png</file>
+        <file>image/node.png</file>
+        <file>image/pixel-line.png</file>
+        <file>image/print.png</file>
+        <file>image/question.png</file>
+        <file>image/radio_normal.png</file>
+        <file>image/radio_selected.png</file>
+        <file>image/select.png</file>
+        <file>image/sub-line_horizontal.png</file>
+        <file>image/sub-line_vertical.png</file>
+        <file>image/update.png</file>
+        <file>image/zoomin.png</file>
+        <file>image/zoomout.png</file>
+    </qresource>
+</RCC>
